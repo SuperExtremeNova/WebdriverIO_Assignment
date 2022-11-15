@@ -8,5 +8,15 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^7.26.0"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^7.26.0",
+    "@wdio/local-runner": "^7.26.0",
+    "@wdio/mocha-framework": "^7.26.0",
+    "@wdio/selenium-standalone-service": "^7.26.0",
+    "@wdio/spec-reporter": "^7.26.0"
+  }
 }
