@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx wdio run wdio.conf.js",
+    "posttest": "C:\\Windows\\System32\\taskkill /IM \"java.exe\" /F"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "@wdio/local-runner": "^7.26.0",
     "@wdio/mocha-framework": "^7.26.0",
     "@wdio/selenium-standalone-service": "^7.26.0",
-    "@wdio/spec-reporter": "^7.26.0"
+    "@wdio/spec-reporter": "^7.26.0",
+    "wdio-intercept-service": "^4.3.0"
   }
 }
